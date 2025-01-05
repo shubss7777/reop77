@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fruits List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .fruit-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .fruit-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .fruit-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fruits of the World</h1>
+        <p>Discover a variety of delicious fruits!</p>
+    </header>
+
+    <main>
+        <section class="fruit-list">
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Apple" alt="Apple">
+                <h3>Apple</h3>
+                <p>Apples are sweet, crunchy fruits that come in a variety of colors, from green to red.</p>
+            </div>
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Banana" alt="Banana">
+                <h3>Banana</h3>
+                <p>Bananas are tropical fruits that are rich in potassium and have a sweet flavor.</p>
+            </div>
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Orange" alt="Orange">
+                <h3>Orange</h3>
+                <p>Oranges are citrus fruits known for their refreshing, tangy taste and high vitamin C content.</p>
+            </div>
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Grapes" alt="Grapes">
+                <h3>Grapes</h3>
+                <p>Grapes are small, sweet fruits that can be eaten fresh or used to make wine.</p>
+            </div>
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Strawberry" alt="Strawberry">
+                <h3>Strawberry</h3>
+                <p>Strawberries are red, juicy berries that are sweet and perfect for desserts.</p>
+            </div>
+            <div class="fruit-item">
+                <img src="https://via.placeholder.com/100x100.png?text=Mango" alt="Mango">
+                <h3>Mango</h3>
+                <p>Mangoes are tropical fruits known for their juicy, sweet flavor and vibrant color.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fruits World</p>
+    </footer>
+
+</body>
+</html>
